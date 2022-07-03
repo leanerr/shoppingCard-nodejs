@@ -1,0 +1,25 @@
+{
+  "name": "mvc-shop",
+  "version": "1.0.0",
+  "author": "Ali Askari",
+  "email": "ali8asgari@gmail.com",
+  "private": false,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.3",
+    "hbs": "^4.0.3",
+    "morgan": "~1.9.1",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "keywords": [],
+  "description": "nodejs-shopping-cart"
+}
