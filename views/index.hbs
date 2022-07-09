@@ -1,0 +1,25 @@
+<div class="center">
+  <h1>{{title}}</h1>
+  <p>Welcome to the {{title}} | Shiraz University - 2022 | Ali Askari</p>
+</div>
+
+
+{{# each products }}
+<div class="center ">
+  <div class="row  ">
+    <div class="col-md-12 ">
+      <div class="thumbnail ">
+        <div class="caption text-center col">
+          <h3>{{ this.title }}</h3>
+            <p class="description   ">{{{this.description}}}</p>
+            <div class="clearfix ">
+            <div class="price pull-left"><i class="fa fa-tag" aria-hidden="true"></i> {{ this.price }} Rial</div>
+              <a href="/add/{{ this.id }}" class="btn btn-default pull-right" role="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+{{/each}}
